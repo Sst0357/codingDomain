@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #0c0c31;
+            color: #fff;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: #330660;
+            font-size: 2rem;
+        }
+
+
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+
+        .firstSection {
+            width: 100%;
+            font-size: 1.3rem;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .rightsection img {
+            width: 80%;
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 35vh;
+        }
+
+        .vertical-tittle {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            height: fit-content;
+            color: #fff;
+        }
+
+        .vertical-tittle:hover {
+            color: #9336ea;
+            font-size: 1.04rem;
+        }
+
+        .image-top {
+            width: 35px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .secondSection h1 {
+            font-size: 1.6rem;
+        }
+
+        .secondSection .box {
+            background: #fff;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 110px;
+            width: 1px;
+            background-color: #fff;
+            margin: 0 200px;
+        }
+
+        footer {
+            background-color: #1e1d1e;
+            justify-content: space-around;
+        }
+
+       .footer{
+        display: flex;
+        padding: 23px 0px;
+        justify-content: space-evenly;
+       }
+
+        .footer ul {
+            list-style: none;
+            color: #fff;
+        }
+
+        
+
+        .footer>div{
+            width: 223px;
+        }
+
+        
+
+        footer .footer-rights{
+            text-align: center;
+            color: #808080;
+            padding: 10px 0;
+        }
+
+        form > button{
+            padding: 12px;
+            background-color: #330660;
+            color: #fff;
+            border: 2px solid #fff;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        form > button:hover {
+            background-color: #fff;
+            color: #330660;
+        }
+
+
+
+        form {
+            margin: 80px;
+        }
+
+        form>div {
+            padding: 10px;
+        }
+
+        form>div>input {
+            width: 36vw;
+            border-radius: 5px;
+            margin: 6px 0;
+            padding: 3px;
+        }
+
+        main hr {
+            border: 0;
+            background: #9336ea;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+
+        #emailHelp {
+            font-size: 10px;
+            color: #808080;
+            margin: 0 5px;
+        }
+
+        #form-check {
+            flex-direction: row;
+        }
+
+        #form-check input {
+            width: 24px;
+            margin: 3px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            Contact me for work/general enquries
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftsection">
+                <form>
+                    <div class="mb-3">
+                        <label for="clientname" class="form-label">Name</label> <br>
+                        <input type="name" class="form-control" id="clientname" aria-describedby="enquirylHelp">
+
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="clientemail" class="form-label">Email address</label> <br>
+                        <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="clientphone" class="form-label">Phone</label> <br>
+                        <input type="phone" class="form-control" id="clientphone">
+                    </div>
+                    <div class="mb-3" id="form-check">
+                        <input type="checkbox" class="form-check-input" id="isclient">
+                        <label class="form-check-label" for="isclient">I want you to work on a project with me</label>
+                    </div>
+                    <div class="mb-3">
+                        <label for="clientenquiry" class="form-label">Enquiry</label> <br>
+                        <input type="message" class="form-control" id="clientenquiry" aria-describedby="enquiryHelp">
+
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+
+            <div class="rightsection">
+                <img src="./pngfind.com-contact-icon-png-1058155.png" alt="">
+            </div>
+
+        </section>
+
+        <hr>
+        <section class="secondSection">
+            <h1>Contact Me</h1>
+            <div class="box">
+                <div class="vertical">
+                    <a href="https://www.linkedin.com/in/swarup-sourav-tripathy-58b55b256">
+                        <img class="image-top" src="./6297a2f1e01809629f113598.png" alt="">
+                        <div class="vertical-tittle">
+                            Linkedin
+                        </div>
+                    </a>
+                </div>
+
+                <div class="vertical">
+                    <a href="https://twitter.com/SwarupSouravTr1?t=T6Mt7yhk1-anLQBHxMNudQ&s=09">
+                        <img class="image-top" src="./twitter.png" alt="">
+                        <div class="vertical-tittle">
+                            Twitter
+                        </div>
+                    </a>
+                </div>
+
+                <div class="vertical">
+                    <a href="mailto:swaruptripathy03@gmail.com" target="_blank">
+                        <img class="image-top" src="./Gmail_logo_PNG9.png" alt="">
+                        <div class="vertical-tittle">
+                            Gmail
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Swarup's developer portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li><a href="/portfolio.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="servise.html">Services</a></li>
+                    <li><a href="skill.html">Skills</a></li>
+                    <li><a href="contact.html">Contact me</a></li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li><a href="/portfolio.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="servise.html">Services</a></li>
+                    <li><a href="skill.html">Skills</a></li>
+                    <li><a href="contact.html">Contact me</a></li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li><a href="/portfolio.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="servise.html">Services</a></li>
+                    <li><a href="skill.html">Skills</a></li>
+                    <li><a href="contact.html">Contact me</a></li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="footer-rights">
+           Copyrights &#169; swarupsportfolio.com | All rights reserved
+        </div>
+    </footer>
+
+</body>
+
+</html>
